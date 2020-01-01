@@ -301,7 +301,7 @@ function solutionCheck()
         solutionDone = true; //Don't do this again
 
         setTimeout(function(){
-            window.location.assign("https://hyliabook.github.io/klavier/");
+            window.open("https://hyliabook.github.io/klavier/", "_blank");
         }, 5000);
     }
 
